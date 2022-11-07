@@ -7,8 +7,9 @@ const AddProduct = (props) => {
      
     
     return(
+        <>
         
-        //<h1>Add Product</h1>
+        <h1>Add Product</h1>
         <div className="col col-6">
         <div className="mb-3">
              <label className="form-label">Product</label>
@@ -30,7 +31,7 @@ const AddProduct = (props) => {
 
    </div>
       
-    
+    </>
         
     )
 }

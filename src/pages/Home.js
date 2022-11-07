@@ -6,8 +6,8 @@ const Home = (props) => {
 
   
     return(
-    
-       //<h1>Home</h1>
+    <>
+       <h1>Home</h1>
        <div className="container mt-5">
        <div className="row">
          <div className="col col-6">
@@ -29,6 +29,7 @@ const Home = (props) => {
          </div>
          </div>
          </div>
+         </>
     )
 }
 
